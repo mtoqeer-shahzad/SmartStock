@@ -7,7 +7,7 @@ class customerClass:
     def __init__(self, root):
         self.root = root
         self.root.geometry("1200x750+0+0")  # Adjusted size to fit everything
-        self.root.title("Customer Management System")
+        self.root.title("Customer Management System.")
         self.root.config(bg="orange")
 
         # Remove minimize, maximize, and close buttons
