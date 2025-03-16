@@ -84,7 +84,7 @@ class IMS:
             e.widget.config(bg="#003366", fg="white")  # Dark blue on leave
 
         buttons = [
-            ("Customer", self.customer_action),
+            ("Customers", self.customer_action),
             ("Supplier", self.supplier_action),
             ("Category", self.category_action),
             ("Products", self.products_action),
@@ -113,7 +113,7 @@ class IMS:
         # =================== CONTENT ===================
         # Define categories and their positions
         categories = [
-            {"text": "Employees\n[0]", "bg": "#005599", "x": 300, "y": 120},
+            {"text": "Customers\n[0]", "bg": "#005599", "x": 300, "y": 120},
             {"text": "Suppliers\n[0]", "bg": "#00796b", "x": 650, "y": 120},
             {"text": "Categories\n[0]", "bg": "#d84315", "x": 300, "y": 300},
             {"text": "Products\n[0]", "bg": "#6a1b9a", "x": 650, "y": 300},

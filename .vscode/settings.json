@@ -4,9 +4,11 @@
         "activeforeground",
         "highlightthickness",
         "LANCZOS",
+        "lightyellow",
         "padx",
         "pady",
         "relx",
-        "SQLEXPRESS"
+        "SQLEXPRESS",
+        "textvariable"
     ]
 }
